@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="signup.css">
+    <title>signin-signup</title>
+</head>
+<body>    
+    <div class="menu">
+        <h3 class="logo">
+            COKO<span>Cars</span>
+        </h3>
+    </div>
+    <div class="container2">
+        <div class="signin-signup">            
+            <form action="" class="sign-in-from">
+                <h2 class="title2">Sign In</h2> 
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="userid" placeholder="Username">
+                    <label class="usern" required>Username</label>
+                </div>  
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="pass" placeholder="Password">
+                    <label class="passw">Password</label>
+                </div> 
+                <input type="submit" value="Login" id="button" class="btn2"> 
+                <p class="social-text">Or sign in with social platforms</p> 
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.google.com/" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>   
+                <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign Up</a></p>  
+            </form>
+            <form action="" class="sign-up-from">
+                <h2 class="title2">Sign Up</h2> 
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username" required>
+                </div>  
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email" required>
+                </div>  
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                </div> 
+                <input type="submit" value="Sign up" class="btn2"> 
+                <p class="social-text">Or sign in with social platforms</p> 
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.google.com/" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign In</a></p>     
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Member of Brand?</h3>
+                    <p>Go back in to your beloved account and continue discovering vehicles that you enjoy and love and maybe even find your dream car!</p>
+                    <button class="btn2" id="sign-in-btn">Sign In</button>
+                </div>
+                <img src="cars.svg" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>New to Brand?</h3>
+                    <p>Create an Account and join us to find everything new from upcoming vehicles and find everything that you enjoy!</p>
+                    <button class="btn2" id="sign-up-btn">Sign Up</button>
+                </div>
+                <img src="creditcard.svg" alt="" class="image">
+            </div>
+        </div>
+    </div>
+    <script src="Signup.js"></script>
+    <footer ><button><a href="index.html"> Go Back</a></button></footer>
+</body>
+</html>
